@@ -1,0 +1,33 @@
+from app.schemas.item import (
+    AttachmentOut,
+    AuthorCreate,
+    AuthorOut,
+    IdentifierImportRequest,
+    IdentifierType,
+    ImportResult,
+    ImportSkipped,
+    ItemBase,
+    ItemBrief,
+    ItemCreate,
+    ItemDetail,
+    ItemListResponse,
+    ItemType,
+    ItemUpdate,
+)
+
+__all__ = [
+    "AttachmentOut",
+    "AuthorCreate",
+    "AuthorOut",
+    "IdentifierImportRequest",
+    "IdentifierType",
+    "ImportResult",
+    "ImportSkipped",
+    "ItemBase",
+    "ItemBrief",
+    "ItemCreate",
+    "ItemDetail",
+    "ItemListResponse",
+    "ItemType",
+    "ItemUpdate",
+]
